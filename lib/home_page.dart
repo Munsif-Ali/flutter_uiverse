@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/loaders/sliding_dot_loader.dart';
+import 'widgets/loaders/sliding_square_loader.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text("Flutter Uiverse")),
       body: const Center(
-        child: SlidingDotLoader(),
+        child: SlidingSquareLoader(),
       ),
     );
   }

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class SlidingDotLoader extends StatefulWidget {
-  const SlidingDotLoader({super.key});
+class SlidingSquareLoader extends StatefulWidget {
+  const SlidingSquareLoader({super.key});
 
   @override
-  State<SlidingDotLoader> createState() => _SlidingDotLoaderState();
+  State<SlidingSquareLoader> createState() => _SlidingSquareLoaderState();
 }
 
-class _SlidingDotLoaderState extends State<SlidingDotLoader>
+class _SlidingSquareLoaderState extends State<SlidingSquareLoader>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;
